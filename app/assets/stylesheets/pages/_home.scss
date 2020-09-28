@@ -1,1 +1,32 @@
 // Specific CSS for your home-page
+@font-face {
+   font-family: 'Peignot';
+   src: font-url('Peignot.ttf') format('truetype');
+   font-weight: normal;
+   font-style: normal;
+}
+
+body {
+  font-size: 2rem;
+}
+
+h1 {
+  font-family: "Peignot", "Helvetica", "sans-serif";
+  font-size: 150px;
+}
+
+.home {
+  height: 100vh;
+  margin-top: -100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  font-size: 0.5rem;
+  color: gray;
+}

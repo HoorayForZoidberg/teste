@@ -1,12 +1,19 @@
-.navbar-lewagon {
-  justify-content: space-between;
-  background: white;
+.navbar {
+  flex-wrap: nowrap;
+  height: 80px;
+  li {
+    font-size: 1rem;
+  }
 }
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
+.navbar-nav {
+  flex-direction: row;
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+.nav-item {
+  padding-left: 20px;
+}
+
+button:focus {
+  outline: inherit;
 }

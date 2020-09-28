@@ -1,2 +1,32 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="container">
+  <div class="wrapper">
+    <div class="home">
+      <div>
+        <h1>Teste Consulting</h1>
+      </div>
+      <div>
+        <div id="typed-strings">
+          <p>Legal</p>
+          <p>Financial</p>
+          <p>Strategic</p>
+        </div>
+        <span id="typed"></span>
+        <script>
+          var typed = new Typed('#typed', {
+            stringsElement: '#typed-strings',
+            typeSpeed: 100,
+            backSpeed: 50,
+            backDelay: 2000,
+            loop: true,
+            showCursor: false
+          });
+        </script>
+        <span> advisory.</span>
+      </div>
+    </div>
+    <div class="footer">
+      Teste Consulting SARL - Rue de Monthoux 52, Geneva SWITZERLAND
+    </div>
+  </div>
+</div>
+
